@@ -14,22 +14,20 @@ button {
     border-radius: 10px;
     border: none;
 }
-
 .button:hover {
     background-color: #f80b0b;
 }
 
-/* Header section start*/
 
+/* Header section start*/
 
 header {
     font-family: 'Mulish', sans-serif;
-    padding: 50px 80px;
+    padding: 0px 80px 50px 80px;
 }
 
 /* banner section */
 .banner {
-    margin-top: 50px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,8 +74,6 @@ header {
 /* header section end */
 
 
-
-
 /* main section start */
 
 main {
@@ -121,11 +117,11 @@ main {
 .popularBtn {
     margin-top: 20px;
 }
-
 /* popular section end*/
 
 
 /* choose destination section start*/
+
 .destination {
     margin-top: 80px;
 }
@@ -209,7 +205,6 @@ main {
     ;
     gap: 10px;
 }
-
 /* choose destination section end*/
 
 
@@ -347,3 +342,50 @@ main {
     right: 1.5%;
 }
 /* newsletter section end */
+
+
+/* footer section start */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 80px;
+    text-align: center;
+}
+.footContainer{
+    padding: 60px 250px;
+}
+.footTittleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footTittleContainer img{
+    width: 7%;
+}
+.footerDes{
+    color: #5A5A5D;
+    margin-bottom: 20px;
+}
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.footContainer hr{
+    opacity: .5;
+    margin-bottom: 20px;
+}
+.footTittleContainer .travels{
+    color: #FF5400;
+}
+.footTittleContainer .title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.copyright{
+    color: #131318;
+}
+/* footer section end */
