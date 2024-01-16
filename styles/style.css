@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Shared styles */
+button {
+    cursor: pointer;
+    background-color: #FF5400;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #f80b0b;
+}
+
+/* Header section start*/
+
+
+header {
+    font-family: 'Mulish', sans-serif;
+    padding: 50px 80px;
+}
+
+/* banner section */
+.banner {
+    margin-top: 50px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 90px 150px;
+    text-align: center;
+}
+
+.bannerTitle {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.bannerDescription {
+    margin-top: 15px;
+    color: #FFF;
+}
+
+.inputFields {
+    margin-top: 25px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* .btnPrimary {
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+} */
+
+/* header section end */
+
+
+
+/* main section start */
+
+/* popular section */
+
+main {
+    font-family: 'Mulish', sans-serif;
+    padding: 50px 80px;
+}
+
+/*Our Popular Tour */
+.popularTours{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.popularItems{
+    flex: 1;
+}
+
+.popularImg {
+    width: 97%;
+}
+
+.popularTitle {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popularDes {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.popularList {
+    padding: 20px 0px 20px 30px;
+}
+
+.popularBtn{
+    margin-top: 20px;
+}
