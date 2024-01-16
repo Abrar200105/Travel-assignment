@@ -62,14 +62,11 @@ header {
     padding: 10px;
     border-radius: 10px;
     border: none;
+    color: rgba(19, 19, 24, 0.50);
 }
-
-/* .btnPrimary {
+#find{
     color: #FFF;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-} */
+}
 
 /* header section end */
 
