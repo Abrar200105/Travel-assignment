@@ -386,3 +386,77 @@ footer{
     color: #131318;
 }
 /* footer section end */
+
+
+
+
+/* responsive website */
+@media screen and (max-width: 600px) {
+
+    header,main{
+        padding: 40px;
+    }
+    .banner {
+        padding: 10px;
+    }
+    .bannerTitle{
+        font-size: 1.5rem;
+    }
+    .inputFields{
+        flex-direction: column;
+    }
+    .text {
+        width: 93%;
+    }
+    .popularTours{
+        flex-direction: column;
+    }
+    .destinationTitle{
+        font-size: 1.5rem;
+    }
+    .destinationImages{
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+        ;
+    }
+    .boxContainer{
+        grid-template-areas:
+            "box1"
+            "box2"
+            "box3"
+        ;
+    }
+    .chooseTitle{
+        font-size: 1.5rem;
+    }
+    .chooseBox3{
+        width: 100%;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .discountSticker{
+        padding: 10px;
+        bottom: 10%;
+    }
+    .discountSticker h2{
+        font-size: 1.2rem;
+    }
+    .footContainer{
+        padding: 30px 50px;
+    }
+
+    .footTittleContainer .icon {
+        width: 12%;
+    }
+    .footTittleContainer .title {
+        font-size: 1.4rem;
+    }
+
+}
