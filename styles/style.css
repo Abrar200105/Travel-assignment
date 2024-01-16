@@ -92,6 +92,7 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    /* align-items: center; */
 }
 
 .popularItems {
@@ -287,4 +288,62 @@ main {
 /* Why_Choose_Us section end*/
 
 
-/* our_best_tour_guides section start*/
+/* newsletter section start */
+
+.newsletter {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.newsletterForm{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletterContainer{
+    padding: 30px;
+}
+.newsletterTitle{
+    color: #131318;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.newsletterDescription{
+    color: #5A5A5D;
+    margin-bottom: 20px;
+}
+.newsletterContainer hr{
+    width: 95%;
+    opacity: 75%;
+    margin-bottom: 20px;
+}
+.newsletterContainer input{
+    border: none;
+    padding: 13px;
+    width: 90%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
+}
+.newsletterContainer button{
+    width: 97%;
+}
+.newsletterImg>img{
+    width: 100%;
+}
+.newsletterImg{
+    position: relative;
+}
+.discountSticker{
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-25deg);
+    bottom: 11%;
+    right: 1.5%;
+}
+/* newsletter section end */
